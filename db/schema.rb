@@ -11,15 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141027193853) do
+ActiveRecord::Schema.define(version: 20141027225056) do
 
   create_table "links", force: true do |t|
     t.string   "original"
-    t.string   "code"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
-
-  add_index "links", ["code"], name: "index_links_on_code"
 
 end
