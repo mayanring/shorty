@@ -1,1 +1,1 @@
-I recently had to make a URL shortener for a pair programming exercise. We left it unfinished but I thought it would be a good opportunity for some coding practice.
+I recently had to make a URL shortener for a pair programming exercise. We left it unfinished but I thought it would be a good opportunity for some coding practice, so I'm doing this again from scratch.
