@@ -1,3 +1,4 @@
 class Link < ActiveRecord::Base
-  validates :original, presence: true
+  validates :original, :code, presence: true
+  validates :code, uniqueness: true
 end
