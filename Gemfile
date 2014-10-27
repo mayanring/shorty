@@ -45,3 +45,4 @@ group :development, :test do
 end
 
 gem 'factory_girl_rails'
+gem 'hashids'
